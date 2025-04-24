@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -49,9 +50,9 @@ const LeadershipSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
           <LeaderCard
             title="Right Honourable Speaker"
-            name="Hon. Alhaji Ibrahim Baba Sulaiman"
+            name="RT. Hon. QS. Haruna Aliyu Dangyatin"
             party="APC"
-            constituency="Dutse/Sakwaya"
+            constituency="Miga"
             bio="Respected statesman with over 15 years of public service experience. A distinguished legislator committed to constitutional development and democratic governance in Jigawa State."
             imageSrc="/lovable-uploads/d5a95366-787b-4ae0-bd82-963f40452642.png"
           />
