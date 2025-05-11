@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -67,11 +68,11 @@ const LeadershipSection = () => {
           
           <LeaderCard
             title="Majority Leader"
-            name="Hon. Awaiting Upload"
+            name="Hon. Lawan Mohd Dansure"
             party="APC"
-            constituency="Constituency Name"
+            constituency="Roni"
             bio="Long-standing member of the House with expertise in budgeting and fiscal responsibility. Champions transparency in governance and community development projects."
-            imageSrc="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1470"
+            imageSrc="/lovable-uploads/8649ae83-1245-4594-8a1b-f65d6b27144f.png"
           />
         </div>
         
