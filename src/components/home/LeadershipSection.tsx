@@ -47,7 +47,7 @@ const LeadershipSection = () => {
       <div className="container mx-auto px-4">
         <h2 className="section-title pb-4">8th Assembly Leadership</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
           <LeaderCard
             title="Right Honourable Speaker"
             name="RT. Hon. QS. Haruna Aliyu Dangyatin"
@@ -73,6 +73,15 @@ const LeadershipSection = () => {
             constituency="Roni"
             bio="Long-standing member of the House with expertise in budgeting and fiscal responsibility. Champions transparency in governance and community development projects."
             imageSrc="/lovable-uploads/8649ae83-1245-4594-8a1b-f65d6b27144f.png"
+          />
+          
+          <LeaderCard
+            title="Minority Leader"
+            name="Hon. Yahaya Zakari"
+            party="PDP"
+            constituency="Fagam"
+            bio="Experienced parliamentarian focused on providing effective opposition and ensuring accountability. Advocates for balanced representation and inclusive policy development."
+            imageSrc="/lovable-uploads/3e5dd972-2d08-4c29-a2d3-764f3df48d44.png"
           />
         </div>
         
