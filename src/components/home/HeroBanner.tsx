@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 const HeroBanner = () => {
   return (
     <div className="relative min-h-[70vh] bg-assembly-light-gray flex items-center">
-      {/* Background image - would be replaced with actual Assembly complex image */}
+      {/* Background image updated with new uploaded image */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center" 
         style={{ 
-          backgroundImage: `url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=1470')`,
+          backgroundImage: `url('/lovable-uploads/9be85908-09e4-457d-8391-3c56947293d5.png')`,
           backgroundBlendMode: 'overlay',
         }}
       >
