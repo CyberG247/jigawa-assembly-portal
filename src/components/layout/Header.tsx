@@ -42,9 +42,9 @@ const Header = () => {
     <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-white/80 backdrop-blur-sm py-4'}`}>
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
-          {/* Logo */}
+          {/* Logo - Fixed the image path by removing "public" from the beginning */}
           <Link to="/" className="flex items-center space-x-3">
-            <img src="/public/lovable-uploads/50807795-a69e-4f31-8b03-73021ad509c9.png" alt="Jigawa State House of Assembly Logo" className="h-12" />
+            <img src="/lovable-uploads/50807795-a69e-4f31-8b03-73021ad509c9.png" alt="Jigawa State House of Assembly Logo" className="h-12" />
             <div className="flex flex-col">
               <span className="font-serif font-bold text-lg text-assembly-green">Jigawa State</span>
               <span className="text-sm text-assembly-deep-green">House of Assembly</span>

@@ -54,7 +54,7 @@ const LeadershipSection = () => {
             party="APC"
             constituency="Miga"
             bio="Respected statesman with over 15 years of public service experience. A distinguished legislator committed to constitutional development and democratic governance in Jigawa State."
-            imageSrc="/lovable-uploads/d5a95366-787b-4ae0-bd82-963f40452642.png"
+            imageSrc="/lovable-uploads/62adb793-4ebb-45e3-8f82-a111c345a797.png"
           />
           
           <LeaderCard

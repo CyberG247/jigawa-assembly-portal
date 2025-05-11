@@ -40,7 +40,7 @@ const HeroBanner = () => {
           <div className="mt-16 bg-white/90 backdrop-blur-sm p-6 rounded-lg shadow-lg max-w-xl">
             <div className="flex items-center gap-4">
               <img 
-                src="/public/lovable-uploads/50807795-a69e-4f31-8b03-73021ad509c9.png" 
+                src="/lovable-uploads/50807795-a69e-4f31-8b03-73021ad509c9.png" 
                 alt="Assembly Logo" 
                 className="w-16 h-16"
               />
