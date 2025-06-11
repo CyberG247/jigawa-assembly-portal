@@ -78,11 +78,11 @@ const Legislators = () => {
   // Mock data for legislators
   const legislators = [
     {
-      name: "Hon. Sani Zakari",
+      name: "Hon. Ibrahim Suleiman",
       constituency: "Dutse Constituency",
       party: "APC",
       phone: "080-1234-5678",
-      email: "sani.zakari@jgsha.gov.ng",
+      email: "ibrahim.suleiman@jgsha.gov.ng",
       image: "https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=1374"
     },
     {
