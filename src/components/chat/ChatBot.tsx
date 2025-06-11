@@ -37,13 +37,13 @@ const ChatBot = () => {
   };
 
   return (
-    <div className="fixed bottom-6 right-6 z-50">
+    <div className="fixed bottom-4 right-4 z-50">
       {/* Chat Bubble */}
       <div
         className={cn(
           "bg-white rounded-2xl shadow-xl transition-all duration-300 transform",
           isOpen ? "scale-100 opacity-100" : "scale-95 opacity-0 pointer-events-none",
-          "w-80 sm:w-96 h-[500px] max-h-[80vh] flex flex-col overflow-hidden"
+          "w-80 sm:w-96 h-[500px] max-h-[80vh] flex flex-col overflow-hidden mb-4"
         )}
       >
         {/* Chat Header */}
@@ -108,7 +108,7 @@ const ChatBot = () => {
         onClick={toggleChat}
         className={cn(
           "rounded-full w-16 h-16 bg-assembly-green hover:bg-assembly-deep-green shadow-lg",
-          "flex items-center justify-center"
+          "flex items-center justify-center ml-auto"
         )}
       >
         {isOpen ? (
