@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import Layout from "@/components/layout/Layout";
 import { Card, CardContent } from "@/components/ui/card";
@@ -22,6 +23,13 @@ const LegislatorCard = ({
 }) => {
   return (
     <Card className="overflow-hidden shadow-md card-hover">
+      <div className="aspect-[3/4] overflow-hidden">
+        <img 
+          src={image} 
+          alt={`${name}`}
+          className="w-full h-full object-cover object-center"
+        />
+      </div>
       <CardContent className="p-4">
         <h3 className="font-serif font-bold text-lg text-assembly-deep-green">{name}</h3>
         <div className="flex items-center mt-1">
