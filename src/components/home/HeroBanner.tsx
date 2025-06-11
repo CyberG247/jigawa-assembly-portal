@@ -32,7 +32,7 @@ const HeroBanner = () => {
             <Button asChild size="lg" className="bg-white text-assembly-green hover:bg-assembly-light-gray hover:text-assembly-deep-green">
               <Link to="/legislators">Meet Your Legislators</Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10">
+            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-red-600 hover:border-red-600">
               <Link to="/resources">View Our Resources</Link>
             </Button>
           </div>
