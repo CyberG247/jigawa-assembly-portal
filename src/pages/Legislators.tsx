@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import Layout from "@/components/layout/Layout";
 import { Card, CardContent } from "@/components/ui/card";
@@ -23,13 +22,6 @@ const LegislatorCard = ({
 }) => {
   return (
     <Card className="overflow-hidden shadow-md card-hover">
-      <div className="aspect-[4/5] overflow-hidden">
-        <img 
-          src={image} 
-          alt={name}
-          className="w-full h-full object-cover object-top"
-        />
-      </div>
       <CardContent className="p-4">
         <h3 className="font-serif font-bold text-lg text-assembly-deep-green">{name}</h3>
         <div className="flex items-center mt-1">
@@ -86,11 +78,11 @@ const Legislators = () => {
   // Mock data for legislators
   const legislators = [
     {
-      name: "Hon. Ibrahim Suleiman",
+      name: "Hon. Sani Zakari",
       constituency: "Dutse Constituency",
       party: "APC",
       phone: "080-1234-5678",
-      email: "ibrahim.suleiman@jgsha.gov.ng",
+      email: "sani.zakari@jgsha.gov.ng",
       image: "https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=1374"
     },
     {
