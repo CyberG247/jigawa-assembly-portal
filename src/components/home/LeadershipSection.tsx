@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -59,10 +58,10 @@ const LeadershipSection = () => {
           
           <LeaderCard
             title="Deputy Speaker"
-            name="Rt. Hon. Sani Isyaku Abubakar"
+            name="Hon. Lorem Ipsum Dolor"
             party="APC"
-            constituency="Gumel"
-            bio="Distinguished legislator with background in Law. Advocate for education reform and rural development initiatives across Jigawa State."
+            constituency="Sit Amet"
+            bio="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
             imageSrc="/lovable-uploads/1b57d621-6074-4a6b-8e27-47690c6275d5.png"
           />
           
